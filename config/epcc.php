@@ -6,13 +6,13 @@ use Carbon\Carbon as Carbon;
 //TODO:  Some of the settings here probably belong somewhere else, like app
 //TODO:  Some of these should probably be loaded from the .env file
 return [
-    'versionName' => "Gate Jump",
-    'releaseDate' => Carbon::parse("December 2018"),
-    'versionNumber' => 1.52,
-    'versionNumberMin' => 0.91,
+    'versionName' => "Second Edition RC",
+    'releaseDate' => Carbon::parse("September 2021"),
+    'versionNumber' => 2.00,
+    'versionNumberMin' => 2.00,
     'googleAnalyticsId' => env('MIX_GOOGLE_ANALYTICS_ID', ''),
     //RulesValues
-    'AptitudesPoint' => 105,
+    'AptitudesPoint' => (15 * 6),
     'AptitudesMinValue' => 5,
     'AptitudesMaxValue' => 30,
     'AbsoluteAptitudesMaxValue' => 40,
